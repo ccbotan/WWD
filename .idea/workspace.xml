@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e60d4874-2625-4646-94d6-e8cae4008568" name="更改" comment="hi">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/appearance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/core-plugins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/graph.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/workspace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/CIE XYZ 色彩空间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/OIP.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808083737.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808084204.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/[[华数杯注意事项]].md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/五个核心参数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/保真度指数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/光谱功率分布.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/CIE S 026E.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/IES TM-30-20.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/附录.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/普朗克轨迹.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/目标.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/相关色温.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/色域指数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/褪黑素日光照度比.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/计算相关色温与距离普朗克轨迹的距离.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/距离普朗克轨迹的距离.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/附录.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Obsidian/题目/2025年C题 可调控生物节律的LED光源研究.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obsidian/test2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obsidian/test3'" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Yu" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Yu" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hanyu0510&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ccbotan/WWD.git&quot;,
+    &quot;accountId&quot;: &quot;2de20a54-09ec-48cd-8e1a-9b1adf62672f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30xyArIM316BR4bJtuXEKZLPfi2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Yu&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WWD\HuaShuBei\WWD" />
+      <recent name="E:\WWD" />
+      <recent name="E:\WWD\HuaShuBei\WWD\HuaShuBei\Obsidian" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="WWD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e60d4874-2625-4646-94d6-e8cae4008568" name="更改" comment="" />
+      <created>1754583378041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754583378041</updated>
+    </task>
+    <task id="LOCAL-00001" summary="hy">
+      <option name="closed" value="true" />
+      <created>1754659900350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754659900350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hjhkghj">
+      <option name="closed" value="true" />
+      <created>1754660643153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754660643153</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hjhkghj">
+      <option name="closed" value="true" />
+      <created>1754660700858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754660700858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hjhkghj">
+      <option name="closed" value="true" />
+      <created>1754660762027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754660762027</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hihihi">
+      <option name="closed" value="true" />
+      <created>1754661248210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754661248210</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hi">
+      <option name="closed" value="true" />
+      <created>1754661651616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754661651616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hy" />
+    <MESSAGE value="hj" />
+    <MESSAGE value="hjhkghj" />
+    <MESSAGE value="hihihi" />
+    <MESSAGE value="hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hi" />
+  </component>
+</project>
