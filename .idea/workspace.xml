@@ -5,42 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e60d4874-2625-4646-94d6-e8cae4008568" name="更改" comment="hi">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/appearance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/core-plugins.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/graph.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/workspace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/CIE XYZ 色彩空间.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/OIP.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808083737.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808084204.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/[[华数杯注意事项]].md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/五个核心参数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/保真度指数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/光谱功率分布.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/CIE S 026E.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/IES TM-30-20.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/附录.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/普朗克轨迹.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/目标.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/相关色温.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/色域指数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/褪黑素日光照度比.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/计算相关色温与距离普朗克轨迹的距离.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Obsidian/距离普朗克轨迹的距离.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/附录.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Obsidian/题目/2025年C题 可调控生物节律的LED光源研究.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Obsidian/test2" beforeDir="false" />
@@ -197,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754661651616</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hi">
+      <option name="closed" value="true" />
+      <created>1754662434369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754662434369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
