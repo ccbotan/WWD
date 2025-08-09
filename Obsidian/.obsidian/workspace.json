@@ -11,10 +11,14 @@
             "id": "68d4a9e47a6cfdbc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "距离普朗克轨迹的距离.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "距离普朗克轨迹的距离"
             }
           }
         ]
@@ -163,12 +167,16 @@
   },
   "active": "68d4a9e47a6cfdbc",
   "lastOpenFiles": [
+    "保真度指数.md",
+    "光谱功率分布.md",
+    "保真度指数与色域指数的计算.md",
+    "().md",
+    "附件/OIP.webp",
     "test5",
     "附录.xlsx",
     "Pasted image 20250808084204.png",
     "题目/2025年C题 可调控生物节律的LED光源研究.pdf",
     "题目",
-    "OIP.webp",
     "Pasted image 20250808161512.png",
     "Pasted image 20250808083737.png",
     "Pasted image 20250808161545.png",
@@ -179,20 +187,16 @@
     "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
     "参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
     "参考文献/IES TM-30-20.pdf",
-    "参考文献/CIE S 026E.pdf",
     "v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
-    "().md",
     "[[华数杯注意事项]].md",
     "目标.md",
     "褪黑素日光照度比.md",
     "普朗克轨迹.md",
-    "保真度指数.md",
     "相关色温.md",
     "五个核心参数.md",
     "CIE XYZ 色彩空间.md",
     "计算相关色温与距离普朗克轨迹的距离.md",
     "色域指数.md",
-    "光谱功率分布.md",
     "距离普朗克轨迹的距离.md",
     "数学公式.md"
   ]
