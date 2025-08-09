@@ -4,17 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "bf006f78c52c019e",
+        "id": "dd6e45c97c3ff3ae",
         "type": "tabs",
         "children": [
           {
-            "id": "6de15fbd9f1ef6c0",
+            "id": "e4fe32dbce67985f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8a4ccbd1580cf3ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfe6824226cca162",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "光谱功率分布.md",
-                "mode": "preview",
+                "file": "相关色温.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +44,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "光谱功率分布"
+              "title": "相关色温"
             }
           }
         ]
@@ -50,13 +66,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "光谱功率分布.md",
+                "file": "相关色温.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "光谱功率分布 的大纲"
+              "title": "相关色温 的大纲"
             }
           },
           {
@@ -120,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "光谱功率分布.md",
+                "file": "相关色温.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "光谱功率分布 的反向链接列表"
+              "title": "相关色温 的反向链接列表"
             }
           },
           {
@@ -139,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "光谱功率分布.md",
+                "file": "相关色温.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "光谱功率分布 的出链列表"
+              "title": "相关色温 的出链列表"
             }
           },
           {
@@ -176,7 +192,8 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -192,42 +209,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6de15fbd9f1ef6c0",
+  "active": "cfe6824226cca162",
   "lastOpenFiles": [
-    "褪黑素日光照度比.md",
-    "相关色温.md",
-    "CIE XYZ 色彩空间.md",
-    "目标.md",
-    "色域指数.md",
-    "距离普朗克轨迹的距离.md",
-    "计算相关色温与距离普朗克轨迹的距离.md",
+    "Pasted image 20250809220525.png",
+    "Pasted image 20250809220518.png",
+    "黑体.md",
+    "黑体轨迹.md",
+    "Pasted image 20250809220407.png",
+    "附件/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
+    "附件/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
+    "附件/Pasted image 20250808161545.png",
+    "附件/Pasted image 20250808161512.png",
+    "附件/Pasted image 20250808084204.png",
+    "附件/Pasted image 20250808083737.png",
+    "附件/OIP.webp",
+    "附件/求解Rg与Rf流程图.png",
+    "热辐射.md",
+    "相对光谱功率.md",
     "光谱功率分布.md",
-    "保真度指数与色域指数的计算.md",
+    "普朗克公式.md",
+    "普朗克轨迹.md",
+    "().md",
+    "相关色温.md",
+    "距离普朗克轨迹的距离.md",
+    "色域指数.md",
     "保真度指数.md",
     "[[华数杯注意事项]].md",
-    "附件/Pasted image 20250808161545.png",
+    "五个核心参数.md",
+    "褪黑素日光照度比.md",
+    "CIE XYZ 色彩空间.md",
+    "目标.md",
+    "计算相关色温与距离普朗克轨迹的距离.md",
+    "保真度指数与色域指数的计算.md",
     "参考文献/IES TM-30-20 zh-Hans.pdf",
     "参考文献/IES TM-30-20.pdf",
     "参考文献/CIE S 026E.pdf",
-    "附件/求解Rg与Rf流程图.png",
     "四个全面.md",
-    "五个核心参数.md",
     "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
-    "().md",
-    "附件/OIP.webp",
     "test5",
     "附录.xlsx",
-    "Pasted image 20250808084204.png",
     "题目/2025年C题 可调控生物节律的LED光源研究.pdf",
     "题目",
-    "Pasted image 20250808161512.png",
-    "Pasted image 20250808083737.png",
-    "Pasted image 20250808161545.png",
-    "v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
     "参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
     "参考文献/附录.xlsx",
-    "v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
-    "普朗克轨迹.md",
     "数学公式.md"
   ]
 }
