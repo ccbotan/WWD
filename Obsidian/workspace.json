@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "bb58dd38345863fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c2c8677d60f349d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68d4a9e47a6cfdbc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "OIP.webp"
+              },
+              "icon": "lucide-image",
+              "title": "OIP"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1dbfcfc9dd262f0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfb4423f5e26e864",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ba99b479e1f5745",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "cc8550f21dcb5245",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:引用文章【1】",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f750105d6626e201",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "78592b8e965050b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fdf947a88e9447b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d2357df55e0bec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "df3fb6dfb676eee2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "f9d20347fb45e97b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7c5cdb9618b59c5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7ba99b479e1f5745",
+  "lastOpenFiles": [
+    "OIP.webp",
+    "().md",
+    "参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
+    "test5",
+    "附录.xlsx",
+    "Pasted image 20250808084204.png",
+    "题目/2025年C题 可调控生物节律的LED光源研究.pdf",
+    "题目",
+    "Pasted image 20250808161512.png",
+    "Pasted image 20250808083737.png",
+    "Pasted image 20250808161545.png",
+    "v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
+    "参考文献/附录.xlsx",
+    "参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
+    "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
+    "参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
+    "参考文献/IES TM-30-20.pdf",
+    "v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
+    "[[华数杯注意事项]].md",
+    "目标.md",
+    "褪黑素日光照度比.md",
+    "普朗克轨迹.md",
+    "保真度指数.md",
+    "相关色温.md",
+    "五个核心参数.md",
+    "CIE XYZ 色彩空间.md",
+    "计算相关色温与距离普朗克轨迹的距离.md",
+    "色域指数.md",
+    "光谱功率分布.md",
+    "距离普朗克轨迹的距离.md",
+    "数学公式.md"
+  ]
+}

@@ -1,0 +1,909 @@
+Index: Obsidian/距离普朗克轨迹的距离.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/距离普朗克轨迹的距离.md b/Obsidian/距离普朗克轨迹的距离.md
+new file mode 100644
+--- /dev/null	(date 1754661176357)
++++ b/Obsidian/距离普朗克轨迹的距离.md	(date 1754661176357)
+@@ -0,0 +1,14 @@
++---
++aliases:
++  - Duv
++tags:
++  - 引用文章【5】
++  - 核心参数
++---
++> 其中， [[相关色温|CCT]]和  [[距离普朗克轨迹的距离|Duv]]这两个参数共同描述了光源的“颜色外观“，计算过程中需要将SPD数据首先转换到标准的[[CIE XYZ 色彩空间]]， 然后通过算法寻找其在 [[普朗克轨迹]] 上的最近的点来确定
++
++
++定义：色偏差$(Duv)$是描述光源点相对黑体轨迹的位置。色偏差的绝对值就是待测光源偏离黑体轨迹的距离。色偏差$(Duv)$有正负之分，光源点位于黑体轨迹上方是为正，位于黑体轨迹下方时为负（引用文章【5】，P20）
++
++[黑体辐射与色温解析-CSDN博客](https://blog.csdn.net/QinLanXin/article/details/89238362)
++[[(99+ 封私信 / 1 条消息) 颜色的数学理论III——色度图、普朗克轨迹与色温 - 知乎](https://zhuanlan.zhihu.com/p/601350463)]()
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1754661276121)
++++ b/.idea/workspace.xml	(date 1754661276121)
+@@ -0,0 +1,213 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="e60d4874-2625-4646-94d6-e8cae4008568" name="更改" comment="hihihi">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/().md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/app.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/appearance.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/core-plugins.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/graph.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/.obsidian/workspace.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/CIE XYZ 色彩空间.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/OIP.webp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808083737.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808084204.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161512.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/Pasted image 20250808161545.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/[[华数杯注意事项]].md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/五个核心参数.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/保真度指数.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/光谱功率分布.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/CIE S 026E.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/IES TM-30-20.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/参考文献/附录.xlsx" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/普朗克轨迹.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/目标.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/相关色温.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/色域指数.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/褪黑素日光照度比.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/计算相关色温与距离普朗克轨迹的距离.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/距离普朗克轨迹的距离.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/附录.xlsx" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Obsidian/题目/2025年C题 可调控生物节律的LED光源研究.pdf" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Obsidian/test2" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Obsidian/test3'" beforeDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="origin/Yu" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="Yu" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;hanyu0510&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/ccbotan/WWD.git&quot;,
++    &quot;accountId&quot;: &quot;2de20a54-09ec-48cd-8e1a-9b1adf62672f&quot;
++  }
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
++  <component name="ProjectId" id="30xyArIM316BR4bJtuXEKZLPfi2" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;Yu&quot;
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="E:\WWD\HuaShuBei\WWD" />
++      <recent name="E:\WWD" />
++      <recent name="E:\WWD\HuaShuBei\WWD\HuaShuBei\Obsidian" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++      <module name="WWD" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="默认任务">
++      <changelist id="e60d4874-2625-4646-94d6-e8cae4008568" name="更改" comment="" />
++      <created>1754583378041</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1754583378041</updated>
++    </task>
++    <task id="LOCAL-00001" summary="hy">
++      <option name="closed" value="true" />
++      <created>1754659900350</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1754659900350</updated>
++    </task>
++    <task id="LOCAL-00002" summary="hjhkghj">
++      <option name="closed" value="true" />
++      <created>1754660643153</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1754660643153</updated>
++    </task>
++    <task id="LOCAL-00003" summary="hjhkghj">
++      <option name="closed" value="true" />
++      <created>1754660700858</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1754660700858</updated>
++    </task>
++    <task id="LOCAL-00004" summary="hjhkghj">
++      <option name="closed" value="true" />
++      <created>1754660762027</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1754660762027</updated>
++    </task>
++    <task id="LOCAL-00005" summary="hihihi">
++      <option name="closed" value="true" />
++      <created>1754661248210</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1754661248210</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="hy" />
++    <MESSAGE value="hj" />
++    <MESSAGE value="hjhkghj" />
++    <MESSAGE value="hihihi" />
++    <option name="LAST_COMMIT_MESSAGE" value="hihihi" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Obsidian/光谱功率分布.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/光谱功率分布.md b/Obsidian/光谱功率分布.md
+new file mode 100644
+--- /dev/null	(date 1754661176407)
++++ b/Obsidian/光谱功率分布.md	(date 1754661176407)
+@@ -0,0 +1,14 @@
++---
++aliases:
++  - SPD
++tags:
++  - 附录Sheet1
++---
++概念：
++==光谱功率分布（Spectral Power Distribution, SPD）==是描述光源或物体发出的光在不同波长上的功率或强度的函数。
++
++定义：
++SPD表示单位波长间隔内的辐射功率（或辐射通量）随波长的变化关系，通常用符号 $P(\lambda)$ 表示，单位可以是瓦特每纳米$(W/nm)$等。
++
++附：
++我们不需要特别特别明白SPD到底是怎么得到的，怎么求出的....我们只需要关注，如何通过附录Sheet1的SPD数据去得到$CCT$,$Duv$,$Rf$等[[五个核心参数#]]
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1754661176422)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1754661176422)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1754661176446)
++++ b/.idea/misc.xml	(date 1754661176446)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.13" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1754661176466)
++++ b/.idea/vcs.xml	(date 1754661176466)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Obsidian/色域指数.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/色域指数.md b/Obsidian/色域指数.md
+new file mode 100644
+--- /dev/null	(date 1754661176068)
++++ b/Obsidian/色域指数.md	(date 1754661176068)
+@@ -0,0 +1,16 @@
++---
++aliases:
++  - Rg
++tags:
++  - 引用文章【2】
++  - 核心参数
++---
++
++> [[保真度指数|Rf]] 和 [[色域指数|Rg]] 计算模型较为复杂 ??,  通常需要模拟待测光源和标准光源分别照射在一系列标准化的”测试色样“上， 再通过复杂的色差公式 ？？ 比较两者在色样上引起的颜色差异。
++
++
++**色域指数$Rg$**：==照明中的色域指数用于测量光源色度的增加或减少。色度是颜色的纯度，强度或饱和度的质量==。例如，红色消防车的颜色是高色度红色而中性灰色是低色度色。大约$Rg=1000$分数意味着光源可以产生与日光下的太阳相似的饱和度。在查看LED时，要获得可接受的颜色质量，分数应在80到120之间; 较高的分数表示较高的饱和度（颜色强度）。当分数高于100时，颜色将比阳光下的自然色更强烈。
++
++$Rg$ 和$Rf$的区别：**Rf 关注颜色“对不对”，Rg 关注颜色“浓不浓”。**
++
++[(99+ 封私信 / 1 条消息) CRI，CQS和IES TM-30有什么区别？为什么它很重要？ - 知乎](https://zhuanlan.zhihu.com/p/78843225)
+\ No newline at end of file
+Index: Obsidian/计算相关色温与距离普朗克轨迹的距离.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/计算相关色温与距离普朗克轨迹的距离.md b/Obsidian/计算相关色温与距离普朗克轨迹的距离.md
+new file mode 100644
+--- /dev/null	(date 1754661176095)
++++ b/Obsidian/计算相关色温与距离普朗克轨迹的距离.md	(date 1754661176095)
+@@ -0,0 +1,55 @@
++---
++tags:
++---
++==简要计算流程：$SPD$——色坐标——色温/距离普朗克轨迹的距离==
++
++## 色坐标
++  色坐标是用于描述颜色的坐标系,$CIE1931$色度学系统是最早的色坐标系统之一， 该系统将可见光谱范围内的所有颜色映射到一个三维坐标系中，分别用 $XYZ$三个坐标轴表示。其中，$x$和 $y$ 坐标表示色度坐标，$z$ 坐标表示亮度坐标。CIE 光谱三刺激 值的计算方法如下：
++$$
++ X = \int_{380}^{780} x(\lambda) P(\lambda) \, d\lambda \
++$$
++$$
++ Y = \int_{380}^{780} y(\lambda) P(\lambda) \, d\lambda \
++$$
++$$
++ Z = \int_{380}^{780} z(\lambda) P(\lambda) \, d\lambda \
++$$
++
++其中，$P(\lambda)$为光源光谱功率分布，$x(\lambda)$ 、$y(\lambda)$和$z(\lambda)$为红、绿、蓝三原色的配色函数。下图表格即为配色函数。![[v2-45c55bbc36405acd8448a00ebb21b8eb_r.png]]
++![[v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png]]
++**光源的色坐标**可通过三刺激值得到，其计算方法如下：
++
++$$
++x=\frac{X}{X+Y+Z}
++$$
++$$
++y=\frac{X}{X+Y+Z}
++$$
++$$
++z=\frac{X}{X+Y+Z}
++$$
++
++
++## 色品坐标 $u$ 和$v$
++色品坐标$u$ 和$v$可以通过三刺激值 $X、Y、Z$ 计算得到，具体计算公式如下：
++$$
++\begin{cases} 
++u = \dfrac{4X}{X + 15Y + 3Z} \\ 
++\\ 
++v = \dfrac{6Y}{X + 15Y + 3Z} 
++\end{cases}
++$$
++## 相关色温$CCT$
++
++
++## 距离普朗克轨迹的距离$Duv$
++**色偏差$（Color Deviation，Duv）$**，以描述光源点相对黑体轨迹的位置。**色偏差的绝对值就是待测光源偏离黑体轨迹的距离**，但色偏差有正负之分，光源点位于黑体轨迹上方时为正，位于黑体轨迹下方时为负。
++假设待测光源是$(u_s,v_s)$黑体轨迹上与待测光源点距离最近的点是$(u_t,v_t)$，色偏差 $Duv$的计算公式如下：
++$$
++Duv=sign(v_s-v_t)\sqrt{(u_t-u_s)^2+(v_t-v_s)^2}
++$$
++
++$sign$ 是符号函数，$(v_s-v_t)>0$时，结果为 1，$(v_s-v_t)=0$ 时，结果为 0，$(v_s-v_t)<0$时，结果为-1。色偏差能反映出光源偏离黑体轨迹的程度，如果光源点离黑体轨迹太远，那么计算出的相关色温将失去意义。CIE 规定光源点偏离黑体轨迹的距 离在 0.054 内才有意义，即：
++$$
++|Duv|<0.054
++$$
+\ No newline at end of file
+Index: Obsidian/CIE XYZ 色彩空间.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/CIE XYZ 色彩空间.md b/Obsidian/CIE XYZ 色彩空间.md
+new file mode 100644
+--- /dev/null	(date 1754661176118)
++++ b/Obsidian/CIE XYZ 色彩空间.md	(date 1754661176118)
+@@ -0,0 +1,9 @@
++---
++tags:
++  - 引用文章【5】
++---
++
++定义：[[CIE XYZ 色彩空间]]是一种色彩空间，主要用于描述人类对颜色的感知。它通过三组刺激值（X、Y、Z）来表示颜色，其中X和Y分别表示色度（颜色的纯度），而Z表示亮度。CIE XYZ色彩空间是基于人类视觉的三类视锥细胞（长波长、中波长和短波长）的刺激比例得出的，能够描述任何颜色的感觉。![[OIP.webp]]
++
++[黑体辐射与色温解析-CSDN博客](https://blog.csdn.net/QinLanXin/article/details/89238362)
++[(99+ 封私信 / 1 条消息) 颜色的数学理论III——色度图、普朗克轨迹与色温 - 知乎](https://zhuanlan.zhihu.com/p/601350463)
+\ No newline at end of file
+Index: Obsidian/五个核心参数.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/五个核心参数.md b/Obsidian/五个核心参数.md
+new file mode 100644
+--- /dev/null	(date 1754661176137)
++++ b/Obsidian/五个核心参数.md	(date 1754661176137)
+@@ -0,0 +1,11 @@
++
++
++为了综合评估LED光源在颜色质量与健康节律效应方面的性能， 行业内制定了以下的关键参数。
++
++* [[相关色温]] #描述颜色  #颜色特性参数
++* [[距离普朗克轨迹的距离]]  #描述颜色  #颜色特性参数 
++* [[保真度指数]] #还原物体真实色彩能力  #颜色还原参数
++* [[色域指数]] #还原物体真实色彩能力  #颜色还原参数 
++* [[褪黑素日光照度比]] #生理节律效应参数 
++
++
+Index: Obsidian/相关色温.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/相关色温.md b/Obsidian/相关色温.md
+new file mode 100644
+--- /dev/null	(date 1754661176153)
++++ b/Obsidian/相关色温.md	(date 1754661176153)
+@@ -0,0 +1,18 @@
++---
++aliases:
++  - CCT
++tags:
++  - 引用文章【1】
++  - 核心参数
++  - 引用文章【5】
++  - 引用文章【4】
++---
++> 其中， [[相关色温|CCT]]和  [[距离普朗克轨迹的距离|Duv]]这两个参数共同描述了光源的“颜色外观“，计算过程中需要将SPD数据首先转换到标准的[[CIE XYZ 色彩空间]]， 然后通过算法寻找其在 [[普朗克轨迹]] 上的最近的点来确定
++
++通俗解释一下色温$CCT$：在照明工业中，相关色温（CCT）是指发出的光的颜色外观。众所周知，并非所有白色照明都是平等的。当某些金属被加热到特定温度（以开尔文（K）度为单位）时，它们似乎会发出不同颜色的白色。 - 即。3000k暖白色或6500k冷白色）。例如，白光可以具有更暖的颜色，看起来是黄色，琥珀色或橙色，或者它可以是冷白色，看起来是亮白色或甚至略带蓝色的白色。
++
++定义：[[相关色温|CCT]]光源的色温定义为与光源辐射颜色相同时的黑体温度，但实际光源光谱功率分布不可能与黑体完全一致，这就延伸出相关色温的概念。
++
++[[黑体辐射与色温解析-CSDN博客](https://blog.csdn.net/QinLanXin/article/details/89238362)]()
++
++[(99+ 封私信 / 1 条消息) 颜色的数学理论III——色度图、普朗克轨迹与色温 - 知乎](https://zhuanlan.zhihu.com/p/601350463)
+\ No newline at end of file
+Index: Obsidian/保真度指数.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/保真度指数.md b/Obsidian/保真度指数.md
+new file mode 100644
+--- /dev/null	(date 1754661176167)
++++ b/Obsidian/保真度指数.md	(date 1754661176167)
+@@ -0,0 +1,18 @@
++---
++aliases:
++  - Rf
++tags:
++  - 引用文章【2】
++  - 核心参数
++---
++**关于保真度指数$(Rf)$的引入**：
++  无论你是否是艺术家，我们的眼睛都对光线质量和颜色敏感。直接用正午阳光点亮的红色衬衫与在荧光浴室灯下点亮的红色衬衫有很大的不同。你会问，为什么这种颜色在不同的灯光下看起来如此不同）？
++
++我们通常引入“太阳”作为标准光源，将太阳下看到的色彩设置为$Rf=100$，意味着该光源的 **颜色还原能力达到理论上的完美水平**。同理，若一束光源的$Rf=75$，那么意味着灯光是太阳显示的可见颜色的$75$%复制。（这意味着如果参考光是日落时间的太阳光，则被测量的光源也必须具有相同的色温，以便进行最准确的比较以测量$Rf$。）
++
++**$Rg$ 和$Rf$的区别**：==Rf 关注颜色“对不对”，Rg 关注颜色“浓不浓”==。
++
++[(99+ 封私信 / 1 条消息) CRI，CQS和IES TM-30有什么区别？为什么它很重要？ - 知乎](https://zhuanlan.zhihu.com/p/78843225)
++
++
++
+Index: Obsidian/普朗克轨迹.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/普朗克轨迹.md b/Obsidian/普朗克轨迹.md
+new file mode 100644
+--- /dev/null	(date 1754661176188)
++++ b/Obsidian/普朗克轨迹.md	(date 1754661176188)
+@@ -0,0 +1,8 @@
++---
++aliases:
++  - 黑体轨迹
++---
++黑体轨迹：是指在色度图（如CIE 1931 xy色度图或CIE 1976 UCS色度图）中，黑体在不同温度下辐射光色的变化路径。这条轨迹描述了黑体从低温（偏红色）到高温（偏蓝白色）过程中颜色坐标的变化
++![[Pasted image 20250808084204.png]]
++[黑体辐射与色温解析-CSDN博客](https://blog.csdn.net/QinLanXin/article/details/89238362)
++[(99+ 封私信 / 1 条消息) 颜色的数学理论III——色度图、普朗克轨迹与色温 - 知乎](https://zhuanlan.zhihu.com/p/601350463)
+\ No newline at end of file
+Index: Obsidian/褪黑素日光照度比.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/褪黑素日光照度比.md b/Obsidian/褪黑素日光照度比.md
+new file mode 100644
+--- /dev/null	(date 1754661176203)
++++ b/Obsidian/褪黑素日光照度比.md	(date 1754661176203)
+@@ -0,0 +1,11 @@
++---
++aliases:
++  - mel-DER
++tags:
++  - 引用文章【3】
++  - 核心参数
++---
++
++> 用于量化光照对人体生理节律的影响强度
++
++==褪黑素日光强度比（mel-DER）==：是指光源对褪黑素分泌的刺激强度，通常用于评估光照对人体生理节律的影响。例如蓝光对褪黑素的抑制作用较强，而红光对褪黑素的抑制力相对较弱
+\ No newline at end of file
+Index: Obsidian/目标.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/目标.md b/Obsidian/目标.md
+new file mode 100644
+--- /dev/null	(date 1754661176225)
++++ b/Obsidian/目标.md	(date 1754661176225)
+@@ -0,0 +1,16 @@
++## 纲领性目标
++在 **满足照明需求的同时**， 优化 LED光源的光谱特性以实现有益的生理节律调节效应。
++
++* 什么是有益的生理节律调节效应， 这里的有益指的是哪方面？
++
++## 涉及方面 
++
++* [[五个核心参数]]  
++* [[四个全面]]
++
++> 注意， 本篇论文通篇围绕着[[光谱功率分布|SPD]]
++
++## 实质性目标
++现在给定了一组LED光源的 [[光谱功率分布|SPD]]数据， 每组数据为波长对应的光谱功率。 请研究上述[[五个核心参数]]的标准化计算方法和数学模型。 计算出SPD数据对应的五个[[特征参数值]]。 
++
++
+Index: Obsidian/.obsidian/app.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/.obsidian/app.json b/Obsidian/.obsidian/app.json
+new file mode 100644
+--- /dev/null	(date 1754661176240)
++++ b/Obsidian/.obsidian/app.json	(date 1754661176240)
+@@ -0,0 +1,3 @@
++{
++  "alwaysUpdateLinks": true
++}
+\ No newline at end of file
+Index: Obsidian/.obsidian/appearance.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/.obsidian/appearance.json b/Obsidian/.obsidian/appearance.json
+new file mode 100644
+--- /dev/null	(date 1754661176267)
++++ b/Obsidian/.obsidian/appearance.json	(date 1754661176267)
+@@ -0,0 +1,1 @@
++{}
+\ No newline at end of file
+Index: Obsidian/.obsidian/core-plugins.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/.obsidian/core-plugins.json b/Obsidian/.obsidian/core-plugins.json
+new file mode 100644
+--- /dev/null	(date 1754661176291)
++++ b/Obsidian/.obsidian/core-plugins.json	(date 1754661176291)
+@@ -0,0 +1,31 @@
++{
++  "file-explorer": true,
++  "global-search": true,
++  "switcher": true,
++  "graph": true,
++  "backlink": true,
++  "canvas": true,
++  "outgoing-link": true,
++  "tag-pane": true,
++  "properties": false,
++  "page-preview": true,
++  "daily-notes": true,
++  "templates": true,
++  "note-composer": true,
++  "command-palette": true,
++  "slash-command": false,
++  "editor-status": true,
++  "bookmarks": true,
++  "markdown-importer": false,
++  "zk-prefixer": false,
++  "random-note": false,
++  "outline": true,
++  "word-count": true,
++  "slides": false,
++  "audio-recorder": false,
++  "workspaces": false,
++  "file-recovery": true,
++  "publish": false,
++  "sync": true,
++  "webviewer": false
++}
+\ No newline at end of file
+Index: Obsidian/.obsidian/graph.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/.obsidian/graph.json b/Obsidian/.obsidian/graph.json
+new file mode 100644
+--- /dev/null	(date 1754661176306)
++++ b/Obsidian/.obsidian/graph.json	(date 1754661176306)
+@@ -0,0 +1,22 @@
++{
++  "collapse-filter": true,
++  "search": "",
++  "showTags": false,
++  "showAttachments": false,
++  "hideUnresolved": false,
++  "showOrphans": true,
++  "collapse-color-groups": true,
++  "colorGroups": [],
++  "collapse-display": true,
++  "showArrow": false,
++  "textFadeMultiplier": 0,
++  "nodeSizeMultiplier": 1,
++  "lineSizeMultiplier": 1,
++  "collapse-forces": true,
++  "centerStrength": 0.518713248970312,
++  "repelStrength": 10,
++  "linkStrength": 1,
++  "linkDistance": 250,
++  "scale": 1,
++  "close": false
++}
+\ No newline at end of file
+Index: Obsidian/.obsidian/workspace.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/.obsidian/workspace.json b/Obsidian/.obsidian/workspace.json
+new file mode 100644
+--- /dev/null	(date 1754661215208)
++++ b/Obsidian/.obsidian/workspace.json	(date 1754661215208)
+@@ -0,0 +1,199 @@
++{
++  "main": {
++    "id": "bb58dd38345863fb",
++    "type": "split",
++    "children": [
++      {
++        "id": "0c2c8677d60f349d",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "68d4a9e47a6cfdbc",
++            "type": "leaf",
++            "state": {
++              "type": "empty",
++              "state": {},
++              "icon": "lucide-file",
++              "title": "新标签页"
++            }
++          }
++        ]
++      }
++    ],
++    "direction": "vertical"
++  },
++  "left": {
++    "id": "1dbfcfc9dd262f0a",
++    "type": "split",
++    "children": [
++      {
++        "id": "dfb4423f5e26e864",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "7ba99b479e1f5745",
++            "type": "leaf",
++            "state": {
++              "type": "file-explorer",
++              "state": {
++                "sortOrder": "alphabetical",
++                "autoReveal": false
++              },
++              "icon": "lucide-folder-closed",
++              "title": "文件列表"
++            }
++          },
++          {
++            "id": "cc8550f21dcb5245",
++            "type": "leaf",
++            "state": {
++              "type": "search",
++              "state": {
++                "query": "tag:引用文章【1】",
++                "matchingCase": false,
++                "explainSearch": false,
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical"
++              },
++              "icon": "lucide-search",
++              "title": "搜索"
++            }
++          },
++          {
++            "id": "f750105d6626e201",
++            "type": "leaf",
++            "state": {
++              "type": "bookmarks",
++              "state": {},
++              "icon": "lucide-bookmark",
++              "title": "书签"
++            }
++          }
++        ]
++      }
++    ],
++    "direction": "horizontal",
++    "width": 200
++  },
++  "right": {
++    "id": "78592b8e965050b0",
++    "type": "split",
++    "children": [
++      {
++        "id": "3fdf947a88e9447b",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "f9d2357df55e0bec",
++            "type": "leaf",
++            "state": {
++              "type": "backlink",
++              "state": {
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical",
++                "showSearch": false,
++                "searchQuery": "",
++                "backlinkCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-coming-in",
++              "title": "反向链接"
++            }
++          },
++          {
++            "id": "df3fb6dfb676eee2",
++            "type": "leaf",
++            "state": {
++              "type": "outgoing-link",
++              "state": {
++                "linksCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-going-out",
++              "title": "出链"
++            }
++          },
++          {
++            "id": "f9d20347fb45e97b",
++            "type": "leaf",
++            "state": {
++              "type": "tag",
++              "state": {
++                "sortOrder": "frequency",
++                "useHierarchy": true,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-tags",
++              "title": "标签"
++            }
++          },
++          {
++            "id": "7c5cdb9618b59c5e",
++            "type": "leaf",
++            "state": {
++              "type": "outline",
++              "state": {
++                "followCursor": false,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-list",
++              "title": "大纲"
++            }
++          }
++        ]
++      }
++    ],
++    "direction": "horizontal",
++    "width": 200,
++    "collapsed": true
++  },
++  "left-ribbon": {
++    "hiddenItems": {
++      "switcher:打开快速切换": false,
++      "graph:查看关系图谱": false,
++      "canvas:新建白板": false,
++      "daily-notes:打开/创建今天的日记": false,
++      "templates:插入模板": false,
++      "command-palette:打开命令面板": false
++    }
++  },
++  "active": "68d4a9e47a6cfdbc",
++  "lastOpenFiles": [
++    "test4",
++    "附录.xlsx",
++    "Pasted image 20250808084204.png",
++    "题目/2025年C题 可调控生物节律的LED光源研究.pdf",
++    "题目",
++    "OIP.webp",
++    "Pasted image 20250808161512.png",
++    "Pasted image 20250808083737.png",
++    "Pasted image 20250808161545.png",
++    "v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
++    "参考文献/附录.xlsx",
++    "参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
++    "参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
++    "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
++    "参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
++    "参考文献/CIE S 026E.pdf",
++    "参考文献/IES TM-30-20.pdf",
++    "v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
++    "().md",
++    "光谱功率分布.md",
++    "距离普朗克轨迹的距离.md",
++    "[[华数杯注意事项]].md",
++    "目标.md",
++    "褪黑素日光照度比.md",
++    "普朗克轨迹.md",
++    "保真度指数.md",
++    "相关色温.md",
++    "五个核心参数.md",
++    "CIE XYZ 色彩空间.md",
++    "计算相关色温与距离普朗克轨迹的距离.md",
++    "色域指数.md",
++    "数学公式.md"
++  ]
++}
+\ No newline at end of file
+Index: Obsidian/[[华数杯注意事项]].md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Obsidian/[[华数杯注意事项]].md b/Obsidian/[[华数杯注意事项]].md
+new file mode 100644
+--- /dev/null	(date 1754661176345)
++++ b/Obsidian/[[华数杯注意事项]].md	(date 1754661176345)
+@@ -0,0 +1,1 @@
++* *
+\ No newline at end of file
+diff --git a/Obsidian/().md b/Obsidian/().md
+new file mode 100644
