@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "0c2c8677d60f349d",
+        "id": "bf006f78c52c019e",
         "type": "tabs",
         "children": [
           {
-            "id": "68d4a9e47a6cfdbc",
+            "id": "6de15fbd9f1ef6c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "距离普朗克轨迹的距离.md",
-                "mode": "source",
-                "source": false
+                "file": "光谱功率分布.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "距离普朗克轨迹的距离"
+              "title": "光谱功率分布"
             }
           }
         ]
@@ -31,11 +41,26 @@
     "type": "split",
     "children": [
       {
-        "id": "dfb4423f5e26e864",
+        "id": "845437061f547b6c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ba99b479e1f5745",
+            "id": "ccaacfc0e2ae2010",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "光谱功率分布.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "光谱功率分布 的大纲"
+            }
+          },
+          {
+            "id": "c53e54156a397ef9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +73,12 @@
             }
           },
           {
-            "id": "cc8550f21dcb5245",
+            "id": "1811fdc333faab67",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:引用文章【1】",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +90,7 @@
             }
           },
           {
-            "id": "f750105d6626e201",
+            "id": "33b9cae44c8a61ce",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,11 +99,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 256.5
   },
   "right": {
     "id": "78592b8e965050b0",
@@ -94,29 +120,31 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "光谱功率分布.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "光谱功率分布 的反向链接列表"
             }
           },
           {
-            "id": "df3fb6dfb676eee2",
+            "id": "cae7ab47d6cdd3f8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "光谱功率分布.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "光谱功率分布 的出链列表"
             }
           },
           {
@@ -152,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,11 +192,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68d4a9e47a6cfdbc",
+  "active": "6de15fbd9f1ef6c0",
   "lastOpenFiles": [
-    "保真度指数.md",
+    "褪黑素日光照度比.md",
+    "相关色温.md",
+    "CIE XYZ 色彩空间.md",
+    "目标.md",
+    "色域指数.md",
+    "距离普朗克轨迹的距离.md",
+    "计算相关色温与距离普朗克轨迹的距离.md",
     "光谱功率分布.md",
     "保真度指数与色域指数的计算.md",
+    "保真度指数.md",
+    "[[华数杯注意事项]].md",
+    "附件/Pasted image 20250808161545.png",
+    "参考文献/IES TM-30-20 zh-Hans.pdf",
+    "参考文献/IES TM-30-20.pdf",
+    "参考文献/CIE S 026E.pdf",
+    "附件/求解Rg与Rf流程图.png",
+    "四个全面.md",
+    "五个核心参数.md",
+    "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
     "().md",
     "附件/OIP.webp",
     "test5",
@@ -183,21 +226,8 @@
     "v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
     "参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
     "参考文献/附录.xlsx",
-    "参考文献/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
-    "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
-    "参考文献/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
-    "参考文献/IES TM-30-20.pdf",
     "v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
-    "[[华数杯注意事项]].md",
-    "目标.md",
-    "褪黑素日光照度比.md",
     "普朗克轨迹.md",
-    "相关色温.md",
-    "五个核心参数.md",
-    "CIE XYZ 色彩空间.md",
-    "计算相关色温与距离普朗克轨迹的距离.md",
-    "色域指数.md",
-    "距离普朗克轨迹的距离.md",
     "数学公式.md"
   ]
 }
