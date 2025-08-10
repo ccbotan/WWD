@@ -51,6 +51,38 @@ def load_spectral_data(file_path):
         return None, None, None
 
 
+def Newton_deiteration_method(uv):
+    """
+
+    :param uv:
+    :return:
+    """
+
+    #计算初始相关色温 作为牛顿迭代法的初值
+    cct, delta_uv = colour.uv_to_CCT(uv, method='Robertson 1968')
+
+    #计算u(T) 和 v(T)
+    black_body_XYZ = colour.sd_to_XYZ(colour.sd_blackbody(T))
+
+    black_body_uvl = colour.XYZ_to_CIE1976UCS(black_body_XYZ)
+
+    black_body_uv = black_body_uvl[:2]
+
+    uv_bias = uv - black_body_uv
+
+    #计算出 F 的值
+    dist_square = np.sum(uv_bias** 2)
+
+    
+
+
+
+
+
+
+def dist_square_func_gradient(T, uv):
+
+
 if __name__ == "__main__":
 
     #文件路径
@@ -93,8 +125,8 @@ if __name__ == "__main__":
 
 
     #使用roboson 牛顿迭代法计算相关色温
+    Newton_deiteration_method(uv_prime)
 
-    cct, delta_uv = colour.xy_to_CCT(xy, method='')
 
     # 注意这里的 xy_to_CCT 要手动写一个 2023年的版本
 

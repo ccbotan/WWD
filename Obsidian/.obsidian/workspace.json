@@ -6,6 +6,7 @@
       {
         "id": "dd6e45c97c3ff3ae",
         "type": "tabs",
+        "dimension": 36.96275071633238,
         "children": [
           {
             "id": "934811343d234aee",
@@ -24,6 +25,7 @@
       {
         "id": "b02be5e3b7cbdc48",
         "type": "tabs",
+        "dimension": 63.03724928366762,
         "children": [
           {
             "id": "ffe3eb9c20e4eae9",
@@ -203,8 +205,10 @@
   },
   "active": "ffe3eb9c20e4eae9",
   "lastOpenFiles": [
-    "journal/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
+    "未命名.md",
     "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
+    "workspace/main.py~",
+    "journal/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
     "相关色温.md",
     "计算相关色温与距离普朗克轨迹的距离.md",
     "workspace/main.py",
@@ -214,7 +218,6 @@
     "journal/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
     "journal/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
     "journal/IES TM-30-20.pdf",
-    "journal/IES TM-30-20 zh-Hans.pdf",
     "attachment/求解Rg与Rf流程图.png",
     "attachment/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
     "attachment/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
