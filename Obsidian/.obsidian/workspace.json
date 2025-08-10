@@ -8,43 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4fe32dbce67985f",
+            "id": "934811343d234aee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "journal/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58"
             }
           }
         ]
       },
       {
-        "id": "8a4ccbd1580cf3ba",
+        "id": "b02be5e3b7cbdc48",
         "type": "tabs",
         "children": [
           {
-            "id": "cfe6824226cca162",
+            "id": "ffe3eb9c20e4eae9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "相关色温.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf"
               },
-              "icon": "lucide-file",
-              "title": "相关色温"
+              "icon": "lucide-file-text",
+              "title": "[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023"
             }
           }
         ]
@@ -66,13 +56,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "相关色温.md",
+                "file": "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "相关色温 的大纲"
+              "title": "[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023 的大纲"
             }
           },
           {
@@ -94,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "色坐标",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "78592b8e965050b0",
@@ -197,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,49 +201,50 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cfe6824226cca162",
+  "active": "ffe3eb9c20e4eae9",
   "lastOpenFiles": [
-    "Pasted image 20250809220525.png",
-    "Pasted image 20250809220518.png",
-    "黑体.md",
+    "journal/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
+    "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
+    "相关色温.md",
+    "计算相关色温与距离普朗克轨迹的距离.md",
+    "workspace/main.py",
+    "issue/2025年C题 可调控生物节律的LED光源研究.pdf",
+    "issue",
+    "journal/中文对照_文章2.pdf",
+    "journal/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
+    "journal/[2] Royer, Michael P. Tutorial Background and guidance for using the ANSIIES TM-30 method for evaluating light source color rendition. Leukos 18.2 (2022) 191-231..pdf",
+    "journal/IES TM-30-20.pdf",
+    "journal/IES TM-30-20 zh-Hans.pdf",
+    "attachment/求解Rg与Rf流程图.png",
+    "attachment/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
+    "attachment/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
+    "attachment/Pasted image 20250809220518.png",
+    "attachment/Pasted image 20250809220525.png",
+    "attachment/Pasted image 20250809220407.png",
+    "attachment/Pasted image 20250809215626.png",
+    "attachment/Pasted image 20250809215149.png",
+    "attachment/Pasted image 20250808161512.png",
+    "attachment/Pasted image 20250808161545.png",
+    "黑体轨迹的Chebyshev法.md",
+    "保真度指数.md",
     "黑体轨迹.md",
-    "Pasted image 20250809220407.png",
-    "附件/v2-45c55bbc36405acd8448a00ebb21b8eb_r 1.png",
-    "附件/v2-45c55bbc36405acd8448a00ebb21b8eb_r.png",
-    "附件/Pasted image 20250808161545.png",
-    "附件/Pasted image 20250808161512.png",
-    "附件/Pasted image 20250808084204.png",
-    "附件/Pasted image 20250808083737.png",
-    "附件/OIP.webp",
-    "附件/求解Rg与Rf流程图.png",
+    "计算褪黑素等效日光照度.md",
+    "黑体.md",
     "热辐射.md",
     "相对光谱功率.md",
     "光谱功率分布.md",
     "普朗克公式.md",
     "普朗克轨迹.md",
     "().md",
-    "相关色温.md",
     "距离普朗克轨迹的距离.md",
     "色域指数.md",
-    "保真度指数.md",
     "[[华数杯注意事项]].md",
     "五个核心参数.md",
     "褪黑素日光照度比.md",
     "CIE XYZ 色彩空间.md",
     "目标.md",
-    "计算相关色温与距离普朗克轨迹的距离.md",
     "保真度指数与色域指数的计算.md",
-    "参考文献/IES TM-30-20 zh-Hans.pdf",
-    "参考文献/IES TM-30-20.pdf",
-    "参考文献/CIE S 026E.pdf",
     "四个全面.md",
-    "参考文献/[4]常雪松.可调色温高显色pc-LED光源设计[D].大连工业大学,2023.pdf",
-    "test5",
-    "附录.xlsx",
-    "题目/2025年C题 可调控生物节律的LED光源研究.pdf",
-    "题目",
-    "参考文献/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
-    "参考文献/附录.xlsx",
     "数学公式.md"
   ]
 }
