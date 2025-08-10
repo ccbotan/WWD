@@ -1,6 +1,8 @@
 import colour
 import numpy as np
 import pandas as pd
+import sympy as sp
+from scipy import constants
 import os
 
 def load_spectral_data(file_path):
@@ -50,6 +52,60 @@ def load_spectral_data(file_path):
         print(f"读取文件时发生错误: {str(e)}")
         return None, None, None
 
+def planck_function_symbolic(lambda_nm, T):
+    # 将波长从 nm 转换为 m
+    lambda_m = lambda_nm * 1e-9
+    #普朗克常数
+    h = constants.Planck
+    #光速
+    c = constants.speed_of_light
+    #玻尔兹曼常数
+    k = constants.boltzmann_constant
+    #pi
+    pi = constants.pi
+    #C_1
+    C_1 = (2 * h * c** 2) / pi
+    #C_2
+    C_2 = (h * c) / k
+    # 普朗克函数公式
+    return C_1 * lambda_m**-5 * (sp.exp(C_2 / (lambda_m * T)) - 1)**-1
+
+def planck_function_symbolic_deriv(lambda_nm, T):
+    # 将波长从 nm 转换为 m
+    lambda_m = lambda_nm * 1e-9
+    # 普朗克常数
+    h = constants.Planck
+    # 光速
+    c = constants.speed_of_light
+    # 玻尔兹曼常数
+    k = constants.boltzmann_constant
+    # pi
+    pi = constants.pi
+    # C_1
+    C_1 = (2 * h * c ** 2) / pi
+    # C_2
+    C_2 = (h * c) / k
+    # 普朗克函数公式求导
+    return  (C_1 * C_2 * lambda_m**-6 * (sp.exp(C_2 / (lambda_m * T)) - 1)**-2 * sp.exp(C_2 / (lambda_m * T))) / (T** 2)
+
+def planck_function_symbolic_third_deriv(lambda_nm, T):
+    lambda_m = lambda_nm * 1e-9
+    # 普朗克常数
+    h = constants.Planck
+    # 光速
+    c = constants.speed_of_light
+    # 玻尔兹曼常数
+    k = constants.boltzmann_constant
+    # pi
+    pi = constants.pi
+    # C_1
+    C_1 = (2 * h * c ** 2) / pi
+    # C_2
+    C_2 = (h * c) / k
+    # 普朗克函数公式求导
+    return ((C_1 * C_2) / (T** 3) * lambda_m**-6 * (sp.exp(C_2 / (lambda_m * T)) - 1)**-2 *
+            sp.exp(C_2 / (lambda_m * T)) * (C_2 / (lambda_m * T) *
+            (sp.exp(C_2 / (lambda_m * T)) + 1) / (sp.exp(C_2 / (lambda_m * T)) - 1) - 2))
 
 def Newton_deiteration_method(uv):
     """
@@ -72,6 +128,8 @@ def Newton_deiteration_method(uv):
 
     #计算出 F 的值
     dist_square = np.sum(uv_bias** 2)
+
+    colour.blackbody(T)
 
     
 

@@ -25,7 +25,7 @@
       {
         "id": "b02be5e3b7cbdc48",
         "type": "tabs",
-        "dimension": 63.03724928366762,
+        "dimension": 63.03724928366763,
         "children": [
           {
             "id": "ffe3eb9c20e4eae9",
@@ -205,10 +205,10 @@
   },
   "active": "ffe3eb9c20e4eae9",
   "lastOpenFiles": [
-    "未命名.md",
-    "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
     "workspace/main.py~",
     "journal/[1]张浩,徐海松.光源相关色温算法的比较研究[J].光学仪器,2006,(01)54-58.pdf",
+    "journal/[5]李月.光源相关色温及色偏差计算方法研究[D].辽宁科技大学,2023.pdf",
+    "未命名.md",
     "相关色温.md",
     "计算相关色温与距离普朗克轨迹的距离.md",
     "workspace/main.py",
